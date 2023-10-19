@@ -1,0 +1,126 @@
+body {
+  font-family: "Calibri", Calibri;
+  margin: 0;
+}
+
+
+section {
+  margin: 0 16px
+}
+
+section.FullScreen {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 52px;
+  border-bottom: 2px solid #222222;
+}
+
+nav>ul {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-color: #222222;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.relative-container {
+  position: relative;
+}
+
+header h1 {
+  margin: 16px;
+}
+
+header h3 {
+  margin: 16px;
+}
+
+header p {
+  margin: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 2px;
+  left: 16px;
+  width: 30px;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+iframe {
+  width: 560px;
+  height: 360px;
+  margin: 0 auto;
+  background-color: #777;
+
+  display: block;
+  border-style: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 4px 4px;
+  margin: 8px 0;
+  display: block;
+}
+
+#form-section {
+  background-color: #333333;
+  color: white;
+  padding: 8px;
+  margin-top: 16px;
+}
+
+#form-section form {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button[type="submit"] {
+  color: rgb(112, 41, 41);
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1px;
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
